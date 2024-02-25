@@ -1,13 +1,10 @@
 import React from 'react'
 
 const Header = () => {
-  return 
-  <section>
+  return <section>
     <header>
-    <div>
-      
-    </div>
-    <div></div>
+      <div></div>
+      <div></div>
     </header>
   </section>
 };
