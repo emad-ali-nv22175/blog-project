@@ -19,6 +19,14 @@ const NavItem = ({ name }) => {
 };
 
 const Header = () => {
+  const [navIsVisible, setNavIsVisible] = useState(false);
+
+  const navVisibilityHandler = () => {
+    setNavIsVisible((curState) => {
+      return !curState;
+    });
+  };
+
   return (
     <section>
       <header className='container mx-auto px-5 flex justify-between py-4 items-center'>
@@ -35,6 +43,7 @@ const Header = () => {
         </div>
       </header>
     </section>
+  );
 };
 
 export default Header;
