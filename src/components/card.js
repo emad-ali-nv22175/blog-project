@@ -7,7 +7,7 @@ function Card() {
            
             <div class="px-6 py-4">
                 <div class="text-black mb-2 text-xl font-bold">
-                    Welcome to 11.AI Class!
+                    Welcome to 11.ccp Class!
                     <p class="pt-4 text-base text-gray-700">This is a part of the WEB202 course.</p>
                 </div>
             </div>
