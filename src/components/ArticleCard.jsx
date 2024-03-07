@@ -36,4 +36,5 @@ Verified writer
   )
 }
 
+
 export default ArticleCard
