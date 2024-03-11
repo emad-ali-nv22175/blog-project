@@ -8,7 +8,7 @@ import {
 import { FaFacebook } from "react-icons/fa";
 import { BsTelegram } from "react-icons/bs";
 
-import { images } from "../constants";
+import { images } from "../constants";  
 
 const Footer = () => {
   return (
