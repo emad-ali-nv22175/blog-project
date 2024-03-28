@@ -5,6 +5,7 @@ import CommentsContainer from "../../components/comments/CommentContainer";
 import MainLayout from "../../components/MainLayout";
 import { images } from "../../constants";
 import SuggestedPosts from "./container/SuggestedPosts";
+import SocialShareButtons from "../../components/SocialShareButtons";
 
 const breadCrumbsData = [
   { name: "Home", link: "/" },
@@ -95,7 +96,20 @@ const ArticleDetailPage = () => {
          <h2 className="font-roboto  font-medium text-dark-hard mb-4 mb:text-xl">
           Share on:
          </h2> 
+        <SocialShareButtons url={encodeURI(
+
+        "https://moonfo.com/post/client-side-and-server-side-explanation"
+       )}
        
+
+       
+        title= {encodeURIComponent(
+
+    
+        "Client-side and server-side explanation"
+        
+        )}
+        />
         </div>
       </section>
     </MainLayout>
