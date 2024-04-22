@@ -9,6 +9,10 @@ const userSlice = createSlice({
     setUserInfo(state, action) {
       state.setUserInfo = action.payload;
     },
+    resetuserInfo(state,  action) {
+
+      state.UserInfo = null
+    },
   },
 });
 
